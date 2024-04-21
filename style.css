@@ -1,0 +1,279 @@
+body {
+  background-color: #252529;
+  color: #fff;
+  line-height: 1.6;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+.nav {
+  height: 40px;
+  width: 100%;
+  background-color: #333;
+  color: rgb(51, 34, 34);
+  position: fixed;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 0;
+  color: #eee;
+}
+
+.nav a:hover {
+  background-color: #615f5f;
+}
+
+#musicpage {
+  background-image: url(./image/music.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-y: hidden;
+}
+#musicpage .container1 {
+  margin-top: 25vh;
+}
+
+.container1 {
+  max-width: 1150px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+#musicpage h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+
+#musicpage h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: bolder;
+}
+
+#musicpage p {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  font-weight: bolder;
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+h2 {
+  display: block;
+}
+
+.section h3 {
+  font-size: 2rem;
+  margin-top: 3rem;
+  font-weight: bolder;
+}
+
+.paragraph1 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+
+.button {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: red;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.paragraph2 {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+img {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.bg {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.section1 h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.paragraph3 {
+  font-size: 1.3rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  line-height: 1.6;
+}
+
+.button1 {
+  padding: 1rem;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  background-color: blueviolet;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.bg1 {
+  background-color: #f4f4f4;
+}
+#entertainment {
+  background-image: url(./image/pic2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  overflow-y: hidden;
+}
+
+section {
+  display: block;
+}
+
+#entertainment .container1 {
+  margin-top: 25vh;
+}
+
+.section2 h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.paragraph4 {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.bg2 {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.section3 {
+  padding: 2rem 0;
+}
+
+section {
+  display: block;
+}
+
+.gift-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  text-align: left;
+}
+
+img {
+  width: 100%;
+}
+.heading2 {
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  font-weight: bold;
+}
+
+.paragraph5 {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.paragraph6 {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+hr {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.redeem {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.fa-solid {
+  display: inline-block;
+  line-height: 1;
+}
+
+footer .footer-class {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: left;
+  font-size: 15px;
+}
+
+footer .footer-class ul {
+  list-style: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+footer .footer-class ul li:first-child {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #444;
+  margin-bottom: 1rem;
+}
+footer a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+footer .bottom {
+  background-color: #333;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+@media(max-width:400px){
+  header{
+    height: 500px;
+  }
+}
+
+@media(max-width:400px){
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
